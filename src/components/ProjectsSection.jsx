@@ -56,8 +56,8 @@ const projects = [
       "CSS5",
       "Amazon Web Services",
     ],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "",
+    githubUrl: "https://github.com/Citu388/codereviewai",
   },
 ];
 
@@ -129,7 +129,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Citu388"
           >
             Check My Github <ArrowRight size={16} />
           </a>
