@@ -11,6 +11,8 @@ import {
   SiGit,
   SiRedis,
   SiDocker,
+  SiLangchain,
+  SiLanggraph,
 } from "react-icons/si";
 
 import { FaAws, FaCss3Alt } from "react-icons/fa6";
@@ -30,6 +32,8 @@ const skills = [
   { name: "Redis", icon: SiRedis, color: "#DC382D" },
   { name: "Docker", icon: SiDocker, color: "#2496ED" },
   { name: "AWS", icon: FaAws, color: "#FF9900" },
+  { name: "LangChain", icon: SiLangchain, color: "#F7F7F7" },
+  { name: "LangGraph", icon: SiLanggraph, color: "#F7F7F7" },
 ];
 
 export const SkillsSection = () => {
